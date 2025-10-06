@@ -1,0 +1,76 @@
+# === C and Allegro 4 Project ===
+# Source files
+*.c
+!src/**.c
+!main.c
+*.h
+!include/**.h
+
+# === Build artifacts ===
+*.exe
+*.dll
+*.a
+*.lib
+*.o
+*.obj
+*.pdb
+*.ilk
+*.def
+*.exp
+*.map
+
+# === Allegro cache / runtime ===
+allegro.log
+allegro.cfg
+allegro.log.txt
+core
+core.*
+
+# === Editor / IDE ===
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+*.ncb
+*.vcproj*
+*.vcxproj*
+*.aps
+
+# === MSYS2 / MinGW / GCC ===
+*.stackdump
+*.dSYM/
+*.exe.stackdump
+*.out
+*.log
+*.dep
+
+# === Backup / temp ===
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# === Project-specific ===
+bin/
+build/
+obj/
+out/
+debug/
+release/
+dist/
+Makefile.win
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# === Asset folders (keep actual assets) ===
+*.bmp~
+*.pcx~
+*.wav~
+*.ogg~
+*.png~
+*.jpg~
+*.tga~
+
