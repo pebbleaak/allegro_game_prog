@@ -1,0 +1,11 @@
+CompileFlags:
+  Add: [
+    "-IH:/msys64/mingw32/include",
+    "-LH:/msys64/mingw32/lib",
+    "-lalleg"
+  ]
+
+Clangd:
+  CompletionStyle: Detailed
+  AllScopesCompletion: false
+
